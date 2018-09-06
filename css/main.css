@@ -178,3 +178,17 @@ font-family: 'Coda', cursive;
     width: 800px;
     height: 110px; 
 }
+
+#aboutmeimage{
+    margin: 0 auto;
+}
+
+#aboutmeimage img{
+    width: 500px;
+}
+
+#contentimages{
+    display: flex;
+    justify-content: center;
+}
+
