@@ -106,20 +106,19 @@ a:hover{
 .about_desc{
     width: 30%;
     padding-left: 10px;
-    border-left: 2px solid;
 }
 
 .spot1{
     width: 209.3px;
     height: 209.3px;
-    margin-left: 20px;
+    margin-right: 20px;
     background-color: black;
 }
+
 
 .spot2{
     width: 209.3px;
     height: 209.3px;
-    margin-left: 20px;
     background-color: black;
 }
 
@@ -243,7 +242,7 @@ i:hover{
 }
 
 .videobasic{
-    width: 100%;
+    max-width: 1200px;
     background-color: #2a428a;
     height: 200px;
     position: relative;
@@ -944,6 +943,14 @@ p.ism-badge a.ism-link:hover {
     color: #fff; background-color: rgba(0, 0, 0, 0.70);
 }
 
+.homepageexplain{
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    color:#2a428a;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
 
 /* The Modal (background) */
 .modal {
@@ -1178,16 +1185,35 @@ p.ism-badge a.ism-link:hover {
     opacity: .2;
 }
 
+.sectionheading_s{
+    display:none;
+}
+
 
 
 
 /* RESPONSIVE CSS */
 @media only screen and (max-width: 1050px) {
-
+    videobasic{
+        width: 1050px;
+    }
     
 .logo{
     margin-right: 0px;
     margin-left: 0px;
+}
+    
+.sectionheading_s{
+    display:block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+    
+.sectionheading{
+    display: none;
 }
     
 .links{
@@ -1200,8 +1226,8 @@ p.ism-badge a.ism-link:hover {
 
 .spotlightcontent{
     justify-content: space-around;
-    margin-top: 20px;
-    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
     padding-left: 0px;
 }
 
@@ -1215,7 +1241,6 @@ p.ism-badge a.ism-link:hover {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-    border-left: 0px solid;
 }
     
    
@@ -1237,6 +1262,10 @@ p.ism-badge a.ism-link:hover {
     
 }
 @media only screen and (max-width: 668px) {
+    
+.videobasic{
+    width: 100%;
+}
 .head{
     justify-content: center;
 }
@@ -1276,7 +1305,10 @@ p.ism-badge a.ism-link:hover {
 }
 
 @media only screen and (max-width: 496px) {
-    
+
+.videobasic{
+    width: 100%;
+}
 .spot1{
     height: 150px;
     width: 150px;
