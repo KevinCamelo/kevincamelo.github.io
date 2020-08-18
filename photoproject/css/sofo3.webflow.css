@@ -1,0 +1,2051 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.section-gallery {
+  width: 100vw;
+  height: 100vh;
+  padding: 100px;
+  background-color: #f7f4f0;
+}
+
+.div-block {
+  height: 100vh;
+  padding: 100px;
+}
+
+.image-grid {
+  height: 55vh;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.image-highlight {
+  height: 100%;
+  background-image: url('../images/pexels-nick-bondarev-4321311.jpg');
+  background-position: 0% 0%;
+  background-size: cover;
+}
+
+.image-hover {
+  position: relative;
+  height: 100%;
+  background-color: hsla(0, 0%, 100%, 0.85);
+  opacity: 0;
+}
+
+.section-name-call {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.image-metadata {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block {
+  text-align: center;
+}
+
+.cta-photo {
+  margin-bottom: 0px;
+  padding-top: 10px;
+  font-family: Bentonsans, sans-serif;
+  font-weight: 400;
+}
+
+.photographer {
+  margin-bottom: 0px;
+  padding-top: 7px;
+  font-family: Bentonsans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.link-block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.project-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.h1-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Playfair Display', sans-serif;
+  color: #364d3f;
+  font-size: 4.5rem;
+  line-height: 54px;
+  font-weight: 600;
+}
+
+.paragraph {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  font-family: Bentonsans, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.link {
+  margin-top: 30px;
+  padding: 12px;
+  border: 2px solid #8b5341;
+  font-family: Bentonsans, sans-serif;
+  color: #8b5341;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.section-photographer {
+  display: none;
+}
+
+.photographer-content {
+  position: -webkit-sticky;
+  position: sticky;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.photos {
+  width: 65%;
+  background-color: #f7f4f0;
+}
+
+.series-info {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 35%;
+  margin-left: 20px;
+  padding: 45px 50px 45px 30px;
+}
+
+.paragraph-2 {
+  font-family: Bentonsans, sans-serif;
+  color: #6c3929;
+  font-size: 1.2rem;
+}
+
+.photographer-section-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Playfair Display', sans-serif;
+  color: #364d3f;
+  font-size: 4rem;
+  line-height: 54px;
+  font-weight: 500;
+}
+
+.paragraph-series-info {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  font-family: Bentonsans, sans-serif;
+  font-size: 1.2rem;
+  line-height: 23px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.gallery-container {
+  padding: 50px;
+}
+
+.grid-2-photo-65-35 {
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-grid-columns: 0.5fr 0.5fr;
+  grid-template-columns: 0.5fr 0.5fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-300-laura-1 {
+  position: relative;
+  width: auto;
+  height: 350px;
+  background-image: url('../images/OLIVERIO_01.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.lightbox-link {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+.grid {
+  margin-top: 16px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-400 {
+  position: relative;
+  height: 500px;
+  background-image: url('../images/3Gordon_Assignment13_Interregnum_01.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.grid-2 {
+  margin-top: 16px;
+  -ms-grid-columns: 0.3fr 0.75fr;
+  grid-template-columns: 0.3fr 0.75fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-500 {
+  position: relative;
+  height: 275px;
+  background-image: url('../images/4DSC_3792.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-500-2 {
+  position: relative;
+  height: 700px;
+  background-image: url('../images/pexels-nick-bondarev-4321311.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.grid-2-photo-50-50 {
+  margin-top: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.div-block-2 {
+  padding: 50px 75px 80px;
+}
+
+.div-block-3 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 45px;
+  padding-right: 10px;
+}
+
+.photo-block-height-300-2 {
+  position: relative;
+  height: 250px;
+  background-image: url('../images/2DSC_3704.jpg');
+  background-position: 44% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-500-2-1 {
+  position: relative;
+  height: 275px;
+  background-image: url('../images/Image-from-iOS.jpg');
+  background-position: 89% 56%;
+  background-size: cover;
+}
+
+.section-photographer-3 {
+  display: none;
+}
+
+.section-photographer-laura-oliverio {
+  display: block;
+}
+
+.photographer-navigator {
+  display: none;
+}
+
+.section-photographer-2-copy {
+  display: block;
+}
+
+.photo-block-height-300-laura-2 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/OLIVERIO_02.jpg');
+  background-position: 44% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-400-laura-dom {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/OLIVERIO_03.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.grid-2---50-50-laura {
+  margin-top: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-275-laura-5 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/OLIVERIO_05.jpg');
+  background-position: 0% 0%;
+  background-size: cover;
+}
+
+.photo-block-height-275-laura-4 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/OLIVERIO_04.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
+}
+
+.section-photographer-anabelle-gordon {
+  display: block;
+}
+
+.section-photographer-emily-steinberger {
+  display: block;
+}
+
+.photo-block-height-300-emily-1 {
+  position: relative;
+  width: auto;
+  height: 350px;
+  background-image: url('../images/1SteinbergerE_1_20200328_00006.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-emily-2 {
+  height: 350px;
+  background-image: url('../images/2SteinbergerE_2_20200327_00220.jpg');
+  background-position: 100% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-400-emily-dom {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/3SteinbergerE_3_20200326_00067.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-emily-4 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/4SteinbergerE_4_20200415_00068-2.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
+}
+
+.photo-block-height-275-emily-5 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/5SteinbergerE_5_20200619_00192.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-annabelle-2 {
+  position: relative;
+  height: 250px;
+  background-image: url('../images/2DSC_3704.jpg');
+  background-position: 44% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-annabelle-1 {
+  position: relative;
+  width: auto;
+  height: 250px;
+  background-image: url('../images/1DSC_2060.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-anya-1 {
+  position: relative;
+  width: auto;
+  height: 300px;
+  background-image: url('../images/1WijeweeraA_06__MG_4944.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-anya-2 {
+  position: relative;
+  height: 300px;
+  background-image: url('../images/2WijeweeraA_09__MG_4991.JPG');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-400-anya-3 {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/3WijeweeraA_02__MG_4686.JPG');
+  background-position: 100% 100%;
+  background-size: cover;
+}
+
+.photo-block-height-275-anya-4 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/4WijeweeraA_03__MG_4697.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-anya-5 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/5WijeweeraA_10__MG_5045.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-sarah-1 {
+  position: relative;
+  width: auto;
+  height: 300px;
+  background-image: url('../images/1072620_Quarantine_Lee_APE_008.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-sarah-2 {
+  position: relative;
+  height: 300px;
+  background-image: url('../images/2072620_Quarantine_Lee_APE_006.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-400-sarah-3 {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/3072620_Quarantine_Lee_APE_007.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-sarah-4 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/4072620_Quarantine_Lee_APE_002.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-sarah-5 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/5072620_Quarantine_Lee_APE_010.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.section-photographer-sarah-lee {
+  display: block;
+}
+
+.section-photographer-anya-wijeweera {
+  display: block;
+}
+
+.photo-block-height-300-elizabeth-1 {
+  position: relative;
+  width: auto;
+  height: 300px;
+  background-image: url('../images/1emb_DOproject10select_home_7.24.20-2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-elizabeth-2 {
+  position: relative;
+  height: 300px;
+  background-image: url('../images/2emb_DOproject10select_home_7.24.20-5.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-400-sarah-3-copy {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/3072620_Quarantine_Lee_APE_007.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-400-elizabeth-3 {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/3emb_DOproject10select_home_7.24.20-4.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-elizabeth-4 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/4emb_DOproject10select_home_7.24.20-6.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-elizabeth-5 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/5emb_DOproject10select_home_7.24.20-10.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.section-photographer-will-fudge {
+  display: block;
+}
+
+.grid---large---mbottom {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-300-will-2 {
+  position: relative;
+  width: auto;
+  height: 350px;
+  background-image: url('../images/2WillFudgeLayout---3.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-will-3 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/3WillFudgeLayout---4.jpeg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-will-4 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/4WillFudgeLayout---6.jpeg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-will-5 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/5WillFudgeLayout---2.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-will-6 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/6WillFudgeLayout---1.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-400-will-1 {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/1WillFudgeLayout---5.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.section-photographer-lucy-messineo-witt {
+  display: block;
+}
+
+.grid---large---mtop {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-400-lucy-1 {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/1IMG_6543-2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-lucy-2 {
+  position: relative;
+  width: auto;
+  height: 350px;
+  background-image: url('../images/2IMG_6698-2.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.photo-block-height-300-lucy-3 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/3IMG_6725-2.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-lucy-4 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/4IMG_6718-2.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.grid---large---lucy---5 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-400-lucy-5 {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/5IMG_6541.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.grid-2-photo-65-35-mobileonly {
+  display: none;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-grid-columns: 0.25fr 0.5fr 0.25fr;
+  grid-template-columns: 0.25fr 0.5fr 0.25fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid-2-photo-65-35---3 {
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-grid-columns: 0.25fr 0.5fr 0.25fr;
+  grid-template-columns: 0.25fr 0.5fr 0.25fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid-2-photo-65-35---3-col {
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-grid-columns: 0.25fr 0.5fr 0.25fr;
+  grid-template-columns: 0.25fr 0.5fr 0.25fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.section-photographer-corey-henry {
+  display: block;
+  margin-top: 0px;
+}
+
+.photo-block-height-400-corey-1 {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/200327_CoronaProject_CoreyHenry_SSP_04.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.grid-2-photo-65-35---3-col-equal {
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-grid-columns: 0.33fr 0.33fr 0.33fr;
+  grid-template-columns: 0.33fr 0.33fr 0.33fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-300-corey-2 {
+  position: relative;
+  width: auto;
+  height: 500px;
+  background-image: url('../images/200409_CoronaProject_CoreyHenry_SSP_09.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.photo-block-height-300-corey-3 {
+  position: relative;
+  height: 500px;
+  background-image: url('../images/200327_CoronaProject_CoreyHenry_SSP_05.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-corey-4 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/4IMG_6718-2.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.grid---large---50-2---corey {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-400-corey-5 {
+  position: relative;
+  height: 275px;
+  background-image: url('../images/5IMG_6541.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-corey-4x5 {
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+}
+
+.photo-story-corey-50-vertical {
+  background-image: url('../images/200327_CoronaProject_CoreyHenry_SSP_03.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.photo-story-corey-50-vertical-2 {
+  background-image: url('../images/200323_CoronaProject_CoreyHenry_SSP_01.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.section-photographer-hunter-franklin {
+  display: block;
+}
+
+.grid-2-photo-50-50-hunter {
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-grid-columns: 0.5fr 0.5fr;
+  grid-template-columns: 0.5fr 0.5fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-300-hunter-1 {
+  position: relative;
+  width: auto;
+  height: 300px;
+  background-image: url('../images/1072620_Quarantine_Lee_APE_008.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.grid-1-photo-top {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-400-hunter-1 {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/1FranklinH_10_DO_PhotoEssay.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-hunter-2 {
+  position: relative;
+  width: auto;
+  height: 275px;
+  background-image: url('../images/2FranklinH_1_DO_PhotoEssay.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-hunter-3 {
+  position: relative;
+  height: 275px;
+  background-image: url('../images/3FranklinH_2_DO_PhotoEssay.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-hunter-4 {
+  position: relative;
+  height: 275px;
+  background-image: url('../images/4FranklinH_4_DO_PhotoEssay.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-hunter-5 {
+  position: relative;
+  height: 275px;
+  background-image: url('../images/5FranklinH_6_DO_PhotoEssay.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.body {
+  background-color: #f7f7f7;
+}
+
+.section-photographer-jamie-kathleen {
+  display: block;
+}
+
+.grid-1-photo-bottom {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-400-jamie-4 {
+  position: relative;
+  height: 550px;
+  background-image: url('../images/4DE-7647.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-400-jamie-1 {
+  position: relative;
+  height: 550px;
+  background-image: url('../images/1LANING-6.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-jamie-2 {
+  position: relative;
+  width: auto;
+  height: 675px;
+  background-image: url('../images/2LANING-4.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-jamie-3 {
+  position: relative;
+  height: 675px;
+  background-image: url('../images/3LANING-5.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.section-photographer-jane-shevlin {
+  display: block;
+}
+
+.photo-block-height-400-jane-1 {
+  position: relative;
+  height: 550px;
+  background-image: url('../images/1shevlinj_001_20200408_0019.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-jane-2 {
+  position: relative;
+  width: auto;
+  height: 350px;
+  background-image: url('../images/2shevlinj_005_20200405_0008.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-jane-3 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/3shevlinj_010_20200409_0039-2.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-400-jane-4 {
+  position: relative;
+  height: 550px;
+  background-image: url('../images/4shevlinj_002_20200329_0018-3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.section-photographer-jessie-zhai {
+  display: block;
+}
+
+.photo-block-height-300-jessie-1 {
+  position: relative;
+  width: auto;
+  height: 300px;
+  background-image: url('../images/1JessieZhai2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-jessie-2 {
+  position: relative;
+  height: 300px;
+  background-image: url('../images/2JessieZhai4.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-400-jessie-3 {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/3JessieZhai3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-jessie-4 {
+  position: relative;
+  height: 525px;
+  background-image: url('../images/4JessieZhai6.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-jessie-5 {
+  position: relative;
+  height: 525px;
+  background-image: url('../images/5JessieZhai5.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.grid-75-25-jessie {
+  margin-top: 16px;
+  -ms-grid-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.section-photographer-josh-lee {
+  display: block;
+}
+
+.grid-2-photo-60-40-josh {
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-grid-columns: 0.75fr 0.25fr;
+  grid-template-columns: 0.75fr 0.25fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.photo-block-height-400-josh-1 {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/1LeeJ_01_200420_0042-18.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-josh-2 {
+  position: relative;
+  width: auto;
+  height: 375px;
+  background-image: url('../images/2LeeJ_01_200720_0096-88.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-josh-3 {
+  position: relative;
+  height: 375px;
+  background-image: url('../images/3LeeJ_01_200708_0088-11.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-josh-4 {
+  position: relative;
+  height: 275px;
+  background-image: url('../images/4LeeJ_01_200722_0098-58.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-josh-5 {
+  position: relative;
+  height: 275px;
+  background-image: url('../images/5LeeJ_01_200722_0097-15.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.section-photographer-jane-brown {
+  display: block;
+}
+
+.photo-block-height-300-jane-1 {
+  position: relative;
+  width: auto;
+  height: 300px;
+  background-image: url('../images/1BrownM_2220200702_0256-copy.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-300-janeb-2 {
+  position: relative;
+  height: 300px;
+  background-image: url('../images/2BrownM_0220200515_0001-copy.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-400-janeb-3 {
+  position: relative;
+  height: 650px;
+  background-image: url('../images/3BrownM_1220200531_0929-copy.jpg');
+  background-position: 100% 100%;
+  background-size: cover;
+}
+
+.photo-block-height-275-jane-b-4 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/4BrownM_0120200507_0100-copy.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photo-block-height-275-janeb-5 {
+  position: relative;
+  height: 350px;
+  background-image: url('../images/5BrownM_2520200702_0494-copy.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 991px) {
+  .section-gallery {
+    position: relative;
+    z-index: 1000;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .image-grid {
+    height: 60vh;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+  .photographer-content {
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .photos {
+    position: relative;
+    width: 100%;
+    background-color: rgba(247, 244, 240, 0.54);
+  }
+  .series-info {
+    position: static;
+    display: none;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .paragraph-2 {
+    margin-bottom: 0px;
+    font-size: 1.1rem;
+  }
+  .photographer-section-name {
+    font-size: 2.9rem;
+    font-weight: 400;
+  }
+  .gallery-container {
+    position: -webkit-sticky;
+    position: sticky;
+    padding-top: 25px;
+    background-color: #fff;
+  }
+  .photo-block-height-300-laura-1 {
+    height: 200px;
+  }
+  .photographer-navigator {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0%;
+    top: 0px;
+    right: 0%;
+    bottom: 0%;
+    z-index: 100;
+    display: block;
+    padding: 0px 50px 25px;
+    background-color: rgba(255, 255, 255, 0.94);
+    box-shadow: 3px 11px 9px -11px rgba(0, 0, 0, 0.13);
+  }
+  .artist-metadata {
+    position: relative;
+    z-index: 700;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 25px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .dropdown {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .image {
+    color: #6c3929;
+  }
+  .artist-explainer {
+    position: relative;
+    z-index: 500;
+    display: none;
+    padding-bottom: 25px;
+  }
+  .photo-block-height-300-laura-2 {
+    height: 200px;
+  }
+  .photo-block-height-400-laura-dom {
+    height: 450px;
+  }
+  .photo-block-height-275-laura-5 {
+    height: 200px;
+  }
+  .photo-block-height-275-laura-4 {
+    height: 200px;
+  }
+  .photo-block-height-300-emily-1 {
+    height: 200px;
+  }
+  .photo-block-height-300-emily-2 {
+    height: 200px;
+  }
+  .photo-block-height-400-emily-dom {
+    height: 450px;
+  }
+  .photo-block-height-275-emily-4 {
+    height: 200px;
+  }
+  .photo-block-height-275-emily-5 {
+    height: 200px;
+  }
+  .photo-block-height-300-annabelle-2 {
+    height: 200px;
+  }
+  .photo-block-height-300-annabelle-1 {
+    height: 200px;
+  }
+  .photo-block-height-300-anya-1 {
+    height: 200px;
+  }
+  .photo-block-height-300-anya-2 {
+    height: 200px;
+  }
+  .photo-block-height-400-anya-3 {
+    height: 450px;
+  }
+  .photo-block-height-275-anya-4 {
+    height: 200px;
+  }
+  .photo-block-height-275-anya-5 {
+    height: 200px;
+  }
+  .photo-block-height-300-sarah-1 {
+    height: 200px;
+  }
+  .photo-block-height-300-sarah-2 {
+    height: 200px;
+  }
+  .photo-block-height-400-sarah-3 {
+    height: 450px;
+  }
+  .photo-block-height-275-sarah-4 {
+    height: 200px;
+  }
+  .photo-block-height-275-sarah-5 {
+    height: 200px;
+  }
+  .photo-block-height-300-elizabeth-1 {
+    height: 200px;
+  }
+  .photo-block-height-300-elizabeth-2 {
+    height: 200px;
+  }
+  .photo-block-height-400-sarah-3-copy {
+    height: 450px;
+  }
+  .photo-block-height-400-elizabeth-3 {
+    height: 450px;
+  }
+  .photo-block-height-275-elizabeth-4 {
+    height: 200px;
+  }
+  .photo-block-height-275-elizabeth-5 {
+    height: 200px;
+  }
+  .photo-block-height-300-will-2 {
+    height: 300px;
+  }
+  .photo-block-height-300-will-3 {
+    height: 300px;
+  }
+  .photo-block-height-300-will-4 {
+    height: 300px;
+  }
+  .photo-block-height-275-will-5 {
+    height: 275px;
+  }
+  .photo-block-height-275-will-6 {
+    height: 275px;
+  }
+  .photo-block-height-400-will-1 {
+    height: 450px;
+  }
+  .photo-block-height-400-lucy-1 {
+    height: 450px;
+  }
+  .photo-block-height-300-lucy-2 {
+    height: 300px;
+  }
+  .photo-block-height-300-lucy-3 {
+    height: 300px;
+  }
+  .photo-block-height-300-lucy-4 {
+    height: 300px;
+  }
+  .photo-block-height-400-lucy-5 {
+    height: 450px;
+  }
+  .photo-block-height-400-corey-1 {
+    height: 450px;
+  }
+  .photo-block-height-300-corey-2 {
+    height: 300px;
+  }
+  .photo-block-height-300-corey-3 {
+    height: 300px;
+  }
+  .photo-block-height-300-corey-4 {
+    height: 300px;
+  }
+  .photo-block-height-400-corey-5 {
+    height: 450px;
+  }
+  .photo-block-height-300-hunter-1 {
+    height: 200px;
+  }
+  .photo-block-height-400-hunter-1 {
+    height: 450px;
+  }
+  .photo-block-height-300-hunter-2 {
+    height: 200px;
+  }
+  .photo-block-height-300-hunter-3 {
+    height: 200px;
+  }
+  .photo-block-height-275-hunter-4 {
+    height: 200px;
+  }
+  .photo-block-height-275-hunter-5 {
+    height: 200px;
+  }
+  .photo-block-height-400-jamie-4 {
+    height: 450px;
+  }
+  .photo-block-height-400-jamie-1 {
+    height: 450px;
+  }
+  .photo-block-height-300-jamie-2 {
+    height: 200px;
+  }
+  .photo-block-height-300-jamie-3 {
+    height: 200px;
+  }
+  .photo-block-height-400-jane-1 {
+    height: 450px;
+  }
+  .photo-block-height-300-jane-2 {
+    height: 200px;
+  }
+  .photo-block-height-300-jane-3 {
+    height: 200px;
+  }
+  .photo-block-height-400-jane-4 {
+    height: 450px;
+  }
+  .photo-block-height-300-jessie-1 {
+    height: 200px;
+  }
+  .photo-block-height-300-jessie-2 {
+    height: 200px;
+  }
+  .photo-block-height-400-jessie-3 {
+    height: 450px;
+  }
+  .photo-block-height-275-jessie-4 {
+    height: 375px;
+  }
+  .photo-block-height-275-jessie-5 {
+    height: 375px;
+  }
+  .photo-block-height-400-josh-1 {
+    height: 450px;
+  }
+  .photo-block-height-300-josh-2 {
+    height: 200px;
+  }
+  .photo-block-height-300-josh-3 {
+    height: 200px;
+  }
+  .photo-block-height-275-josh-4 {
+    height: 200px;
+  }
+  .photo-block-height-275-josh-5 {
+    height: 200px;
+  }
+  .photo-block-height-300-jane-1 {
+    height: 200px;
+  }
+  .photo-block-height-300-janeb-2 {
+    height: 200px;
+  }
+  .photo-block-height-400-janeb-3 {
+    height: 450px;
+  }
+  .photo-block-height-275-jane-b-4 {
+    height: 200px;
+  }
+  .photo-block-height-275-janeb-5 {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-block-height-400-jamie-4 {
+    height: 275px;
+  }
+  .photo-block-height-400-jamie-1 {
+    height: 275px;
+  }
+  .photo-block-height-300-jamie-2 {
+    height: 375px;
+  }
+  .photo-block-height-300-jamie-3 {
+    height: 375px;
+  }
+  .photo-block-height-400-jane-1 {
+    height: 275px;
+  }
+  .photo-block-height-300-jane-2 {
+    height: 375px;
+  }
+  .photo-block-height-300-jane-3 {
+    height: 375px;
+  }
+  .photo-block-height-400-jane-4 {
+    height: 275px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section-gallery {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .top-hero {
+    overflow: hidden;
+  }
+  .image-grid {
+    width: 100vw;
+    height: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    grid-auto-flow: row;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    -ms-grid-rows: 70px 70px 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+  }
+  .image-highlight {
+    height: auto;
+  }
+  .image-hover {
+    display: none;
+  }
+  .image-metadata {
+    display: none;
+  }
+  .project-info {
+    margin-top: 40px;
+  }
+  .h1-title {
+    font-size: 3.7rem;
+  }
+  .paragraph {
+    margin-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 1.2rem;
+    line-height: 26px;
+  }
+  .link {
+    margin-top: 20px;
+  }
+  .photos {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    display: block;
+  }
+  .paragraph-2 {
+    font-size: 0.9rem;
+    line-height: 19px;
+  }
+  .photographer-section-name {
+    font-size: 2rem;
+    line-height: 37px;
+    font-weight: 400;
+  }
+  .paragraph-series-info {
+    font-size: 1.1rem;
+  }
+  .gallery-container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .grid-2-photo-65-35 {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 10px;
+    grid-template-areas: "Area";
+    -ms-grid-columns: 1fr 8px 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .photo-block-height-300-laura-1 {
+    height: 150px;
+  }
+  .grid {
+    margin-top: 8px;
+  }
+  .photo-block-height-400 {
+    height: 200px;
+  }
+  .grid-2 {
+    margin-top: 8px;
+    grid-column-gap: 8px;
+  }
+  .photo-block-height-500 {
+    height: 150px;
+  }
+  .photo-block-height-300-2 {
+    height: 150px;
+  }
+  .photo-block-height-500-2-1 {
+    height: 150px;
+  }
+  .photographer-navigator {
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+  }
+  .artist-metadata {
+    padding-top: 15px;
+  }
+  .photo-block-height-300-laura-2 {
+    height: 150px;
+  }
+  .photo-block-height-400-laura-dom {
+    height: 200px;
+  }
+  .grid-2---50-50-laura {
+    margin-top: 8px;
+    grid-column-gap: 8px;
+  }
+  .photo-block-height-275-laura-5 {
+    height: 125px;
+  }
+  .photo-block-height-275-laura-4 {
+    height: 125px;
+    background-position: 45% 50%;
+  }
+  .photo-block-height-300-emily-1 {
+    height: 125px;
+  }
+  .photo-block-height-300-emily-2 {
+    height: 125px;
+    background-position: 100% 50%;
+  }
+  .photo-block-height-400-emily-dom {
+    height: 200px;
+  }
+  .photo-block-height-275-emily-4 {
+    height: 150px;
+  }
+  .photo-block-height-275-emily-5 {
+    height: 150px;
+    background-position: 100% 50%;
+  }
+  .photo-block-height-300-annabelle-2 {
+    height: 150px;
+  }
+  .photo-block-height-300-annabelle-1 {
+    height: 150px;
+  }
+  .photo-block-height-300-anya-1 {
+    height: 150px;
+  }
+  .photo-block-height-300-anya-2 {
+    height: 150px;
+  }
+  .photo-block-height-400-anya-3 {
+    height: 200px;
+  }
+  .photo-block-height-275-anya-4 {
+    height: 125px;
+    background-position: 45% 50%;
+  }
+  .photo-block-height-275-anya-5 {
+    height: 125px;
+  }
+  .photo-block-height-300-sarah-1 {
+    height: 150px;
+  }
+  .photo-block-height-300-sarah-2 {
+    height: 150px;
+  }
+  .photo-block-height-400-sarah-3 {
+    height: 200px;
+  }
+  .photo-block-height-275-sarah-4 {
+    height: 125px;
+    background-position: 45% 50%;
+  }
+  .photo-block-height-275-sarah-5 {
+    height: 125px;
+  }
+  .photo-block-height-300-elizabeth-1 {
+    height: 150px;
+  }
+  .photo-block-height-300-elizabeth-2 {
+    height: 150px;
+  }
+  .photo-block-height-400-sarah-3-copy {
+    height: 200px;
+  }
+  .photo-block-height-400-elizabeth-3 {
+    height: 200px;
+  }
+  .photo-block-height-275-elizabeth-4 {
+    height: 125px;
+    background-position: 45% 50%;
+  }
+  .photo-block-height-275-elizabeth-5 {
+    height: 125px;
+  }
+  .grid---large---mbottom {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    grid-row-gap: 8px;
+  }
+  .photo-block-height-300-will-2 {
+    height: 100%;
+  }
+  .photo-block-height-300-will-3 {
+    height: 150px;
+  }
+  .photo-block-height-300-will-4 {
+    height: 150px;
+  }
+  .photo-block-height-275-will-5 {
+    height: 125px;
+    background-position: 45% 50%;
+  }
+  .photo-block-height-275-will-6 {
+    height: 125px;
+  }
+  .photo-block-height-400-will-1 {
+    height: 200px;
+  }
+  .section-photographer-lucy-messineo-witt {
+    display: block;
+  }
+  .grid---large---mtop {
+    margin-top: 8px;
+  }
+  .photo-block-height-400-lucy-1 {
+    height: 200px;
+  }
+  .photo-block-height-300-lucy-2 {
+    height: 250px;
+  }
+  .photo-block-height-300-lucy-3 {
+    height: 150px;
+  }
+  .photo-block-height-300-lucy-4 {
+    height: 250px;
+  }
+  .grid---large---lucy---5 {
+    margin-top: 8px;
+  }
+  .photo-block-height-400-lucy-5 {
+    height: 200px;
+  }
+  .grid-2-photo-65-35-mobileonly {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    grid-template-areas: ".";
+    -ms-grid-columns: 1fr 8px 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto 8px auto;
+    grid-template-rows: auto auto;
+  }
+  .grid-2-photo-65-35---3 {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 10px;
+    grid-template-areas: "Area";
+    -ms-grid-columns: 1fr 8px 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .grid-2-photo-65-35---3-col {
+    display: none;
+    grid-column-gap: 8px;
+    grid-row-gap: 10px;
+    grid-template-areas: "Area";
+    -ms-grid-columns: 1fr 8px 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-photographer-corey-henry {
+    display: block;
+  }
+  .photo-block-height-400-corey-1 {
+    height: 200px;
+  }
+  .grid-2-photo-65-35---3-col-equal {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 10px;
+    grid-template-areas: "Area ." "Area-2 Area-2";
+    -ms-grid-columns: 1fr 8px 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .photo-block-height-300-corey-2 {
+    height: 275px;
+  }
+  .photo-block-height-300-corey-3 {
+    height: 275px;
+  }
+  .photo-block-height-300-corey-4 {
+    height: 250px;
+  }
+  .grid---large---50-2---corey {
+    margin-top: 8px;
+  }
+  .photo-block-height-400-corey-5 {
+    height: 200px;
+  }
+  .photo-block-height-300-corey-4x5 {
+    height: 150px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .grid-2-photo-50-50-hunter {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 10px;
+    grid-template-areas: "Area";
+    -ms-grid-columns: 1fr 8px 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .photo-block-height-300-hunter-1 {
+    height: 150px;
+  }
+  .grid-1-photo-top {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .photo-block-height-400-hunter-1 {
+    height: 200px;
+  }
+  .photo-block-height-300-hunter-2 {
+    height: 150px;
+  }
+  .photo-block-height-300-hunter-3 {
+    height: 150px;
+  }
+  .photo-block-height-275-hunter-4 {
+    height: 125px;
+    background-position: 45% 50%;
+  }
+  .photo-block-height-275-hunter-5 {
+    height: 125px;
+  }
+  .grid-1-photo-bottom {
+    margin-top: 8px;
+  }
+  .photo-block-height-400-jamie-4 {
+    height: 200px;
+  }
+  .photo-block-height-400-jamie-1 {
+    height: 200px;
+  }
+  .photo-block-height-300-jamie-2 {
+    height: 250px;
+  }
+  .photo-block-height-300-jamie-3 {
+    height: 250px;
+  }
+  .photo-block-height-400-jane-1 {
+    height: 200px;
+  }
+  .photo-block-height-300-jane-2 {
+    height: 150px;
+  }
+  .photo-block-height-300-jane-3 {
+    height: 150px;
+  }
+  .photo-block-height-400-jane-4 {
+    height: 200px;
+  }
+  .photo-block-height-300-jessie-1 {
+    height: 150px;
+  }
+  .photo-block-height-300-jessie-2 {
+    height: 150px;
+  }
+  .photo-block-height-400-jessie-3 {
+    height: 200px;
+  }
+  .photo-block-height-275-jessie-4 {
+    height: 225px;
+    background-position: 45% 50%;
+  }
+  .photo-block-height-275-jessie-5 {
+    height: 225px;
+  }
+  .grid-75-25-jessie {
+    margin-top: 8px;
+    grid-column-gap: 8px;
+    -ms-grid-columns: 0.75fr 1.5fr;
+    grid-template-columns: 0.75fr 1.5fr;
+  }
+  .grid-2-photo-60-40-josh {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 10px;
+    grid-template-areas: "Area";
+    -ms-grid-columns: 1.75fr 8px 1fr;
+    grid-template-columns: 1.75fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .photo-block-height-400-josh-1 {
+    height: 200px;
+  }
+  .photo-block-height-300-josh-2 {
+    height: 150px;
+  }
+  .photo-block-height-300-josh-3 {
+    height: 150px;
+  }
+  .photo-block-height-275-josh-4 {
+    height: 150px;
+    background-position: 45% 50%;
+  }
+  .photo-block-height-275-josh-5 {
+    height: 150px;
+  }
+  .photo-block-height-300-jane-1 {
+    height: 150px;
+  }
+  .photo-block-height-300-janeb-2 {
+    height: 150px;
+  }
+  .photo-block-height-400-janeb-3 {
+    height: 200px;
+  }
+  .photo-block-height-275-jane-b-4 {
+    height: 125px;
+    background-position: 45% 50%;
+  }
+  .photo-block-height-275-janeb-5 {
+    height: 125px;
+  }
+}
+
+#w-node-e7f1f7ea2329-843f8186 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-0b9f56ca3c66-843f8186 {
+    -ms-grid-row: span 2;
+    grid-row-start: span 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: span 2;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+  #w-node-da1599b46968-843f8186 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+  #w-node-e7f1f7ea2329-843f8186 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+  #w-node-9fc6db4abe8e-843f8186 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+}
+
+@font-face {
+  font-family: 'Bentonsans';
+  src: url('../fonts/BentonSans-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bentonsans';
+  src: url('../fonts/BentonSans-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bentonsans';
+  src: url('../fonts/BentonSans-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
