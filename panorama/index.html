@@ -1,20 +1,41 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>360&deg; Image</title>
-    <meta name="description" content="360&deg; Image - A-Frame">
-    <script src="https://www.danpacheco.co/aframe/dist/aframe-v1.0.4.min.js"></script>
-  </head>
-  <body>
-     <div id="g-pano-box">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>A.M.E. Zion Church</title>
+	<meta aframe-injected="" name="mobile-web-app-capable" content="yes">
+	<meta aframe-injected="" name="theme-color" content="black">
+    </head>
+    <body>
+<script>
+require(['foundation/main'], function () {
+  require(['https://static01.nyt.com/newsgraphics/2019/01/08/imr-till/8df48ff83abf1c5eacb5e0a94a724bdb481f949d/aframe.min.js']); // this is edited for reverseTouchDrag and nytios bug
+});
+</script>
+
+
+<link rel="preload" href="https://static01.nyt.com/newsgraphics/2019/01/08/imr-till/8df48ff83abf1c5eacb5e0a94a724bdb481f949d/build.js" as="script">
+
+
+
+<!-- has content for webgl -->
+<div id="g-backdrop-fallback" class="g-ar-fallback-only"></div>
+
+<div class="g-graphic g-graphic-freebird" data-preview-slug="2018-ar-project">
+
+
+  <div id="g-pano-box">
     <a-scene class="g-pano-scene" debug embedded vr-mode-ui="enabled: false">
 
+      <a-assets id="g-pano-asset-loader">
+      </a-assets>
+
       <a-camera id="g-pano-camera" look-controls="reverseMouseDrag: true; reverseTouchDrag: true;"></a-camera>
-      <a-sky id="g-pano-sky" src="aunt-ediths-present.jpg" rotation="0 0 0">
+      <a-sky id="g-pano-sky" src="aunt-ediths-historical.jpg" rotation="0 0 0">
         <a-animation id="g-animation" attribute="rotation" fill="forwards" easing="linear" dur="128000" repeat="indefinite"></a-animation>
         <!-- attached inner pano -->
-        <a-sky id="g-pano-inner-sky" src="aunt-ediths-historical.jpg" rotation="0 0 0" src="#still-05" opacity="0.5" radius="4000" scale="-1 1 -1" visible="false">
+        <a-sky id="g-pano-inner-sky" src="aunt-ediths-present.jpg" rotation="0 0 0" src="#still-05" opacity="0.5" radius="4000" scale="-1 1 -1" visible="false">
           <a-animation attribute="material.opacity" direction="alternate" delay="1000" dur="4000" repeat="indefinite" from="1" to="0"></a-animation>
         </a-sky>
 
@@ -22,5 +43,6 @@
 
     </a-scene>
   </div>
-  </body>
+        </div>
+    </body>
 </html>
